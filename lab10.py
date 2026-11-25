@@ -136,7 +136,6 @@ def daily_temperatures(temps): # Restated: Use a stack to see how many days afte
                 stack.append(0)
                 break
 
-    #stack.append(0) # Final day does not have any following days
     return stack
             
 
